@@ -1,0 +1,90 @@
+body{
+    background-color: #010012;
+}
+
+@font-face {
+    font-family: ancientModern;
+    src: url(../fonte/ancient-modern-tales.ttf);
+}
+
+  @font-face {
+    font-family: aesymatt;
+    src: url(../fonte/aesymatt.ttf);
+}
+
+#cabana{
+    width: 700px;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#conseguiu{
+    font-family: ancientModern;
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+#fim{
+    font-family: aesymatt;
+    color: #ffffff;
+    font-weight: 100;
+    text-align: center;
+}
+
+#botao {
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    background-color: #010012;
+    cursor: pointer;
+    font-family: aesymatt;
+    width: 200px;
+    height: 80px;
+    font-size: 30px;
+    display: block;
+    margin: 0px auto 0px auto;
+    text-decoration: underline #010012;
+}
+
+#botao:hover {
+    border: 5px solid #ffffff;
+}
+
+#pontos{
+    font-family: ancientModern;
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 100;
+    position: relative;
+    display: inline-block;
+    margin-left: -2%;
+}
+
+#coracao{
+    width: 6%;
+    margin-left: 40%;
+    position: relative;
+    display: inline-block;
+}
+
+#vidas{
+    font-family: ancientModern;
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 100;
+    position: relative;
+    display: inline-block;
+    margin-left: -2%;
+}
+
+#alvo{
+    width: 5%;
+    margin-left: 8%;
+    position: relative;
+    display: inline-block;
+}

@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #010012;
+}
+
+@font-face {
+    font-family: ancientModern;
+    src: url(../fonte/ancient-modern-tales.ttf);
+  }
+
+  @font-face {
+    font-family: aesymatt;
+    src: url(../fonte/aesymatt.ttf);
+  }
+
+#nome {
+    color: #ffffff;
+    font-family: ancientModern;
+    font-size: 800%;
+    font-weight: 100;
+    margin: 50% 0px 0px 40%;
+}
+
+p {
+    color: #ffffff;
+    font-family: aesymatt;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+#botao {
+    border: none;
+    color: #ffffff;
+    background-color: #010012;
+    cursor: pointer;
+    font-family: aesymatt;
+    width: 45%;
+    height: 7%;
+    font-size: 300%;
+    margin: 45% 0 0 63%;
+}
+
+#botao:hover {
+    border: 5px solid #ffffff;
+}
+
+#menu {
+    width: 50%;
+    margin-left: 16%;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+}
+
+#sobre{
+    border: none;
+    color: #ffffff;
+    background-color: #010012;
+    cursor: pointer;
+    font-family: aesymatt;
+    width: 40%;
+    height: 7%;
+    font-size: 300%;
+    margin: 10% 0 0 64%;
+}
+
+#sobre:hover{
+    border: 5px solid #ffffff;
+}

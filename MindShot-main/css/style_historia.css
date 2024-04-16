@@ -1,0 +1,55 @@
+body{
+    background-color: #010012;
+}
+
+#floresta{
+    width: 45%;
+    opacity: 80%;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 6%;
+}
+
+@font-face {
+    font-family: aesymatt;
+    src: url(../fonte/aesymatt.ttf)
+  }
+
+#continuar {
+    border: none;
+    color: #ffffff;
+    background-color: #010012;
+    cursor: pointer;
+    font-family: aesymatt;
+    width: 5%;
+    height: 7%;
+    font-size: 300%;
+    font-weight: 700px;
+    display: block;
+    margin-left: 45%;
+    margin-top: 2%;
+    text-decoration: underline #010012;
+    position: absolute;
+}
+
+#continuar:hover {
+    border: 5px solid #ffffff;
+}
+
+#historia{
+    color: #ffffff;
+    font-family: aesymatt;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+    margin: 1% 0 0 30%;
+}
+
+#linha{
+    color: #ffffff;
+    font-family: aesymatt;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+    margin: 3% 0 0 30%;
+}

@@ -1,0 +1,55 @@
+body{
+    background-color: #010012;
+}
+
+#figura{
+    width: 45%;
+    opacity: 60%;
+    position: absolute;
+    margin-left: 28%;
+    margin-top: 2%;
+}
+
+@font-face {
+    font-family: aesymatt;
+    src: url(../fonte/aesymatt.ttf)
+  }
+
+#voltar {
+    border: none;
+    color: #ffffff;
+    background-color: #010012;
+    cursor: pointer;
+    font-family: aesymatt;
+    width: 5%;
+    height: 7%;
+    font-size: 300%;
+    font-weight: 700px;
+    display: block;
+    margin-left: 47%;
+    margin-top: 13%;
+    text-decoration: underline #010012;
+    position: absolute;
+}
+
+#voltar:hover {
+    border: 5px solid #ffffff;
+}
+
+#historia{
+    color: #ffffff;
+    font-family: aesymatt;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+    margin: 1% 0 0 33%;
+}
+
+#linha{
+    color: #ffffff;
+    font-family: aesymatt;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+    margin: 10% 0 0 33%;
+}
